@@ -659,7 +659,7 @@ input[type="checkbox"] {
 
 .chip {
   flex: 1;
-  padding: 12px 10px;
+  padding: 12px 5px;
   border: none;
   border-right: 1px solid rgba(44, 79, 134, 0.3);
   background: #ffffff;
@@ -713,9 +713,17 @@ input[type="checkbox"] {
   flex: 0 0 auto;
   border-radius: 12px;
   overflow: hidden;
+  background: #f1f3f6;
 }
 
-.place-thumb-svg { width: 100%; height: 100%; display: block; }
+.place-thumb img,
+.place-thumb-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
 
 .place-info {
   display: flex;
