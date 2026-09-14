@@ -62,7 +62,7 @@ input[type="checkbox"] {
   position: absolute;
   height: 2.5px;
   width: 25px;
-  background-color: #2C4F86;
+  background-color: #326cbb;
   border-radius: 30px;
   transition: 0.3s ease;
 }
@@ -95,7 +95,7 @@ input[type="checkbox"] {
   top: 0;
   right: 0;
 
-  background-color: #2C4F86;
+  background-color: #326cbb;
 
   transform: translateX(100%);
   transition: 0.5s ease;
@@ -205,11 +205,20 @@ input[type="checkbox"] {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.75);
+  padding-bottom: 50px;
   background-size: cover;
-
-  
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 50%,
+    transparent 93%
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    black 50%,
+    transparent 93%
+  );
 }
-
+  
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -300,7 +309,7 @@ input[type="checkbox"] {
 .section-heading h2 {
   font-size: 22px;
   font-weight: 700;
-  color: #2C4F86;
+  color: #326cbb;
   padding-top: 20px;
 }
 
@@ -331,7 +340,7 @@ input[type="checkbox"] {
   flex-direction: column;
   gap: 10px;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   padding: 16px 14px;
   text-decoration: none;
   color: inherit;
@@ -354,7 +363,7 @@ input[type="checkbox"] {
 
 .district-card-tag {
   font-size: 11.5px;
-  color: #5a729e;
+  color: #326cbb;
   line-height: 1.45;
 }
 
@@ -366,7 +375,7 @@ input[type="checkbox"] {
   max-width: 440px;
   margin: 0 auto;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   padding: 14px 10px 8px;
 }
 
@@ -388,7 +397,7 @@ input[type="checkbox"] {
 .spk-district:hover path,
 .spk-district:focus-visible path {
   filter: brightness(1.08) saturate(1.25);
-  stroke: #2C4F86;
+  stroke: #326cbb;
   stroke-width: 3;
 }
 
@@ -409,7 +418,7 @@ input[type="checkbox"] {
 .spk-map-caption {
   text-align: center;
   font-size: 12px;
-  color: #9aa8c2;
+  color:#326cbb;
   margin-top: 8px;
 }
 
@@ -434,7 +443,7 @@ input[type="checkbox"] {
   align-items: center;
   gap: 14px;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   padding: 12px;
   text-decoration: none;
   color: inherit;
@@ -481,9 +490,10 @@ input[type="checkbox"] {
 
 .featured-teaser {
   font-size: 12px;
-  color: #5a729e;
+  color:#326cbb;
   line-height: 1.4;
 }
+
 
 /* =========================
    HOME: MORE LINKS
@@ -500,9 +510,9 @@ input[type="checkbox"] {
 
 .more-link {
   font-size: 13px;
-  color: #2C4F86;
+  color: #326cbb;
   text-decoration: none;
-  border-bottom: 1px solid rgba(44, 79, 134, 0.35);
+  border-bottom: 1px solid #326cbb;
   padding-bottom: 2px;
   transition: 0.25s;
 }
@@ -597,7 +607,7 @@ input[type="checkbox"] {
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 1px;
-  color: #2C4F86;
+  color: #326cbb;
 }
 
 .place-header {
@@ -608,30 +618,43 @@ input[type="checkbox"] {
 .place-header h2 {
   font-size: 26px;
   font-weight: 200;
-  color: #2C4F86;
+  color: #326cbb;
   
 }
 .place-header h3 {
   font-size: 26px;
   font-weight: 700;
-  color: #2C4F86;
+  color: #326cbb;
   width: 300px;
   height: 50px;
   margin: 0 auto 20px;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   box-sizing: border-box;
   overflow: hidden;
 
 }
-
+.iframe {
+    display: block;
+    width: 120%;
+    max-width: 1100px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    margin: 30px auto;
+    border: 3px solid #326cbb;
+    padding: 2px;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .map-container {
   width: 100%;
   max-width: 400px;
   height: 350px;
   margin: 0 auto 20px;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   padding: 4px;
   box-sizing: border-box;
   overflow: hidden;
@@ -653,7 +676,7 @@ input[type="checkbox"] {
   align-items: center;
   max-width: 420px;
   margin: 0 auto 24px;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   overflow: hidden;
 }
 
@@ -661,9 +684,9 @@ input[type="checkbox"] {
   flex: 1;
   padding: 12px 5px;
   border: none;
-  border-right: 1px solid rgba(44, 79, 134, 0.3);
+  border-right: 1px solid #326cbb;
   background: #ffffff;
-  color: #2C4F86;
+  color: #326cbb;
   font-family: "Kanit", sans-serif;
   font-size: 15px;
   cursor: pointer;
@@ -693,7 +716,7 @@ input[type="checkbox"] {
   align-items: center;
   gap: 1px;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   padding: 12px;
   cursor: pointer;
   transition: 0.25s;
@@ -748,13 +771,13 @@ input[type="checkbox"] {
 
 .place-teaser {
   font-size: 12.5px;
-  color: #5a729e;
+  color: #326cbb;
   line-height: 1.4;
 }
 
 .place-empty {
   text-align: center;
-  color: #9aa8c2;
+  color: #326cbb;
   padding: 30px 0;
 }
 
@@ -792,7 +815,7 @@ input[type="checkbox"] {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
@@ -817,13 +840,13 @@ input[type="checkbox"] {
   height: 34px;
   border-radius: 50%;
   background: #ffffff;
-  border: 2px solid #2C4F86;
+  border: 2px solid #326cbb;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 5;
-  color: #2C4F86;
+  color: #326cbb;
   font-size: 16px;
   box-shadow: 0 4px 10px rgba(44, 79, 134, 0.15);
 }
@@ -834,7 +857,7 @@ input[type="checkbox"] {
 .cf-hint {
   text-align: center;
   font-size: 12px;
-  color: #9aa8c2;
+  color: #326cbb;
   margin-bottom: 4px;
 }
 
