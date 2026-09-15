@@ -33,6 +33,14 @@ const DISTRICTS = [
   }
 ];
 
+const SAMHAI = [
+  {
+    id: 'lopburi', name: 'สมัยลพบุรี',
+    tag: ''
+  }
+  
+];
+
 const DISTRICT_ICONS = {
 };
 
@@ -389,6 +397,12 @@ function handleImgError(imgEl) {
   imgEl.outerHTML = placeholderThumb();
 }
 
+function toggleDropdown2() {
+  document.getElementById("historysubmenu").classList.toggle("active");
+  document.getElementById("arrow2").classList.toggle("rotate");
+}
+
+
 
 /* ================= HOME: DISTRICT MAP ================= */
 
@@ -567,6 +581,21 @@ function renderSubmenu() {
     </li>
   `).join("");
 }
+/* ================= SUBMENU (History) ================= */
+
+function renderHistorySubmenu() {
+  const submenu = document.getElementById("historysubmenu");
+
+  if (!submenu) return;
+
+  submenu.innerHTML = SAMHAI.map(d => `
+    <li>
+      <a href="#history" data-close>
+        ${d.name}
+      </a>
+    </li>
+  `).join("");
+}
 
 
 /* ================= STATE ================= */
@@ -618,6 +647,23 @@ function updateDetailMap(p) {
 
   map.src =
     `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=16&output=embed`;
+}
+
+
+function updateDetailImage(p) {
+
+  const img = document.getElementById("detailImage");
+
+  if (!img || !p) return;
+
+  if (p.image) {
+    img.style.display = "block";
+    img.src = p.image;
+    img.alt = p.name || "";
+  } else {
+    img.removeAttribute("src");
+    img.style.display = "none";
+  }
 }
 
 
@@ -967,6 +1013,8 @@ function updateDetailContent() {
   document.getElementById("detailTransport").textContent =
     p.transport;
 
+  updateDetailImage(p);
+
   updateDetailMap(p);
 
 
@@ -1116,6 +1164,7 @@ document.addEventListener(
   () => {
 
     renderSubmenu();
+    renderHistorySubmenu();
 
     route();
 
