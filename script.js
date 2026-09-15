@@ -36,7 +36,7 @@ const DISTRICTS = [
 const SAMHAI = [
   {
     id: 'lopburi', 
-    name: 'สมัยลพบุรี',
+    name: 'ประวัติศาสตร์ถิ่นจังหวัดสมุทรปราการ','สมัยลพบุรี' , 'สมัยสุโขทัย' , 'สมัยอยุธยา' , 'สมัยธนบุรี' , 'สมัยรัตนดกสินทร์' , 'ประเพณีวัฒนธรรม' 
     tag: ''
   }
   
@@ -589,7 +589,7 @@ function renderHistorySubmenu() {
 
   if (!submenu) return;
 
-  submenu.innerHTML = SAMHAI.map(d => `
+  submenu.innerHTML = Age.map(d => `
     <li>
       <a href="#history" data-close>
         ${d.name}
