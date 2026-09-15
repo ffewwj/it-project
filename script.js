@@ -35,7 +35,8 @@ const DISTRICTS = [
 
 const SAMHAI = [
   {
-    id: 'lopburi', name: 'สมัยลพบุรี',
+    id: 'lopburi', 
+    name: 'สมัยลพบุรี',
     tag: ''
   }
   
