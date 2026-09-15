@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* =========================
    GENERAL
 ========================= */
@@ -62,7 +62,7 @@ input[type="checkbox"] {
   position: absolute;
   height: 2.5px;
   width: 25px;
-  background-color: #326cbb;
+  background-color:#326cbb;
   border-radius: 30px;
   transition: 0.3s ease;
 }
@@ -194,12 +194,37 @@ input[type="checkbox"] {
    HERO
 ========================= */
 
+.typing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.typing-text h1 {
+  font-size: 34px;
+  font-weight: 200px;
+  color: #ffffff;
+  
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+span{
+  color: #e0f618;
+}
 .hero {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
+.maps{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: #ffffff;
+  border: 2px solid #326cbb;
+  padding: 16px 14px;
+  
 
+}
 .hero-img {
   width: 100%;
   height: 100%;
@@ -231,15 +256,22 @@ input[type="checkbox"] {
 
 .hero-overlay h1 {
   color: #ffffff;
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-  font-size: 34px;
+  font-family: "Cormorant";
+  font-size: 50px;
   letter-spacing: 2px;
   line-height: 1.4;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
   
 }
-
+.hero-overlay h2 {
+  color: #ffffff;
+  font-family: "Kanit";
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  
+}
 .hero-sub {
   margin-top: 14px;
   color: rgba(255, 255, 255, 0.88);
@@ -436,6 +468,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  
 }
 
 .featured-card {
@@ -448,11 +481,13 @@ input[type="checkbox"] {
   text-decoration: none;
   color: inherit;
   transition: 0.25s;
+  border-radius: 20px;
 }
 
 .featured-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 18px rgba(44, 79, 134, 0.15);
+  
 }
 
 .featured-thumb {
@@ -468,6 +503,7 @@ input[type="checkbox"] {
   height: 100%;
   display: block;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .featured-info {
@@ -613,12 +649,14 @@ input[type="checkbox"] {
 .place-header {
   text-align: center;
   margin-bottom: 18px;
+  
 }
 
 .place-header h2 {
   font-size: 26px;
   font-weight: 200;
   color: #326cbb;
+  
   
 }
 .place-header h3 {
@@ -632,6 +670,7 @@ input[type="checkbox"] {
   border: 2px solid #326cbb;
   box-sizing: border-box;
   overflow: hidden;
+  border-radius: 15px;
 
 }
 .iframe {
@@ -722,6 +761,8 @@ input[type="checkbox"] {
   transition: 0.25s;
   text-decoration: none;
   color: inherit;
+  border-radius: 15px;
+ 
   
 }
 
@@ -746,6 +787,7 @@ input[type="checkbox"] {
   display: block;
   object-fit: cover;
   object-position: center;
+  
 }
 
 .place-info {
@@ -753,6 +795,7 @@ input[type="checkbox"] {
   flex-direction: column;
   gap: 4px;
   padding-left: 10px;
+  
 }
 
 .place-tag {
