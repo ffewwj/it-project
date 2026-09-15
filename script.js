@@ -36,6 +36,11 @@ const DISTRICTS = [
 const Age = [
   
    {
+    id: 'historytongtin', 
+    name: 'ประวัติศาสตร์ท้องถิ่นจังหวัดสมุทรปราการ',
+    tag: ''
+  },
+  {
     id: 'lopburi', 
     name: 'สมัยลพบุรี',
     tag: ''
