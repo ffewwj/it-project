@@ -34,39 +34,35 @@ const DISTRICTS = [
 ];
 
 const Age = [
-  {
-    id: 'historytonhtin', 
-    name: 'ประวัติศาสตร์ถิ่นจังหวัดสมุทรปราการ','สมัยลพบุรี' , 'สมัยสุโขทัย' , 'สมัยอยุธยา' , 'สมัยธนบุรี' , 'สมัยรัตนดกสินทร์' , 'ประเพณีวัฒนธรรม' 
-    tag: ''
-  }
+  
    {
     id: 'lopburi', 
-    name: 'สมัยลพบุรี'
+    name: 'สมัยลพบุรี',
     tag: ''
-  }
+  },
    {
     id: 'sukhothai', 
-    name: 'สมัยสุโขทัย'
+    name: 'สมัยสุโขทัย',
     tag: ''
-  }
+  },
    {
     id: 'ayothaya', 
-    name: 'สมัยอยุธยา'
+    name: 'สมัยอยุธยา',
     tag: ''
-  }
+  },
    {
     id: 'thonburi', 
-    name: 'สมัยธนบุรี'
+    name: 'สมัยธนบุรี',
     tag: ''
-  }
+  },
    {
     id: 'rattanakosin', 
-    name: 'สมัยรัตนโกสินทร์'
+    name: 'สมัยรัตนโกสินทร์',
     tag: ''
-  }
+  },
    {
     id: 'prapenee', 
-    name:  'ประเพณีวัฒนธรรม' 
+    name:  'ประเพณีวัฒนธรรม' ,
     tag: ''
   }
 
@@ -428,7 +424,7 @@ function handleImgError(imgEl) {
   imgEl.outerHTML = placeholderThumb();
 }
 
-function toggleDropdown2() {
+function togglehistoryDropdown() {
   document.getElementById("historysubmenu").classList.toggle("active");
   document.getElementById("arrow2").classList.toggle("rotate");
 }
