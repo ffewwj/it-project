@@ -394,6 +394,40 @@ function handleImgError(imgEl) {
 
 /* ================= HOME: DISTRICT MAP ================= */
 
+/* รูปทรงแต่ละอำเภอ (โพลิกอนอย่างง่าย จำลองจากแผนที่จังหวัดสมุทรปราการ)
+   fill / labelColor / labelPos ใช้สำหรับวาดและติดป้ายชื่อ */
+const DISTRICT_SHAPES = {
+  phrapradaeng: {
+    d: "M55,95 L170,20 L300,95 L215,140 L65,175 Z",
+    fill: "#ffffff",
+    label: { x: 168, y: 108, rotate: -15, color: "#2C4F86", size: 12 }
+  },
+  bangphli: {
+    d: "M300,95 L345,50 L430,68 L392,195 L215,140 Z",
+    fill: "#fdfdfd",
+    label: { x: 330, y: 125, rotate: 0, color: "#2C4F86", size: 12 }
+  },
+  bangsaothong: {
+    d: "M430,68 L448,205 L420,258 L392,195 Z",
+    fill: "#ffffff",
+    label: { x: 420, y: 175, rotate: -80, color: "#2C4F86", size: 10 }
+  },
+  bangbo: {
+    d: "M430,68 L525,45 L568,150 L538,248 L448,205 Z",
+    fill: "#ffffff",
+    label: { x: 498, y: 148, rotate: -8, color: "#2C4F86", size: 12 }
+  },
+  mueang: {
+    d: "M215,140 L392,195 L420,258 L268,302 L183,308 L52,232 L65,175 Z",
+    fill: "#ffffff",
+    label: { x: 232, y: 232, rotate: 0, color: "#2C4F86", size: 13 }
+  },
+  phrasamutchedi: {
+    d: "M183,308 L52,232 L18,248 L45,312 L128,345 Z",
+    fill: "#ffffff",
+    label: { x: 88, y: 288, rotate: -15, color: "#2C4F86", size: 10.5 }
+  }
+};
 
 
 
