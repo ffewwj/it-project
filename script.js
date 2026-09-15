@@ -33,13 +33,43 @@ const DISTRICTS = [
   }
 ];
 
-const SAMHAI = [
+const Age = [
   {
-    id: 'lopburi', 
+    id: 'historytonhtin', 
     name: 'ประวัติศาสตร์ถิ่นจังหวัดสมุทรปราการ','สมัยลพบุรี' , 'สมัยสุโขทัย' , 'สมัยอยุธยา' , 'สมัยธนบุรี' , 'สมัยรัตนดกสินทร์' , 'ประเพณีวัฒนธรรม' 
     tag: ''
   }
-  
+   {
+    id: 'lopburi', 
+    name: 'สมัยลพบุรี'
+    tag: ''
+  }
+   {
+    id: 'sukhothai', 
+    name: 'สมัยสุโขทัย'
+    tag: ''
+  }
+   {
+    id: 'ayothaya', 
+    name: 'สมัยอยุธยา'
+    tag: ''
+  }
+   {
+    id: 'thonburi', 
+    name: 'สมัยธนบุรี'
+    tag: ''
+  }
+   {
+    id: 'rattanakosin', 
+    name: 'สมัยรัตนโกสินทร์'
+    tag: ''
+  }
+   {
+    id: 'prapenee', 
+    name:  'ประเพณีวัฒนธรรม' 
+    tag: ''
+  }
+
 ];
 
 const DISTRICT_ICONS = {
