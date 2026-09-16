@@ -209,18 +209,28 @@ const PLACES = [
     teaser: '',
      about: 'เป็นศูนย์รวมของการค้าขาย ทั้งปลีก และส่ง มีทั้งของสด ของแห้ง ของใช้ อุปกรณ์ต่างๆมากมาย หรือแม้กระทั่งเครื่องอำนวยความสะดวกต่างๆที่นี่ก็มีพร้อม รวมถึงของกิน ของอร่อยต่างๆ ก็รวมอยู่ที่ตลาดปากน้ำแห่งนี้',
     transport: 'BTS สายสีเขียว สถานีปากน้ำ แล้วเดิน เข้าสู่ตัวตลาด',
-    image: "img/paknam.jpg"
+    image: "img/paknam4.webp",
+     detailImages: [
+      "img/paknam.jpg",
+      "img/paknam2.jpg",
+      "img/paknam3.jpg"
+    ]
   },
 
   {
     id: 'vivajoy',
     district: 'mueang',
-    name: 'สวนสนุกหิมะในร่ม VIVAJOY PLANET',
+    name: 'VIVAJOY PLANET',
     category: 'landmark',
     teaser: '',
      about: 'สวนสนุกเมืองหิมะในร่มแห่งแรกในสมุทรปราการ สนุกกับลานหิมะจริง สไลเดอร์น้ำแข็ง และโซนถ่ายรูปที่น่ารัก เปิดทุกวัน : 10.00 - 20.00 น.' ,
     transport: 'รถไฟฟ้า BTS สถานีแพรกษา (E15) แล้วต่อรถจักรยานยนต์รับจ้าง',
-    image: "img/vivajoy.jpg"
+    image: "img/vivajoy.jpg",
+    detailImages: [
+      "img/vivajoy2.jpg",
+      "img/vivajoy3.jpg",
+      "img/vivajoy4.jpg"
+    ]
   },
 
   {
@@ -339,7 +349,12 @@ const PLACES = [
     teaser: '',
     about: 'บรรยากาศร่มรื่น เต็มไปด้วยต้นไม้สีเขียวรอบตัว เหมือนหลุดมาอยู่บ้านกลางป่า มีกิจกรรม Workshop หลากหลายให้เลือก ไม่ว่าจะเป็น เพ้นต์ภาพ, มัดย้อมผ้า, พายเรือคายัก, ล่องเรือไม้',
     transport: 'นั่งรถไฟฟ้า BTS ลงสถานีบางนา แล้วต่อเรือข้ามฟากที่ท่าเรือวัดบางนานอก',
-    image: "img/bannaklang.jpg"
+    image: "img/bannaklang.jpg",
+     detailImages: [
+      "img/bannaklang1.png",
+      "img/bannaklang2.jpg",
+      "img/bannaklang3.jpeg"
+    ]
   },
 
   {
@@ -412,7 +427,12 @@ const PLACES = [
     teaser: '',
     about: 'ตลาดน้ำกลางวัดที่อบอวลไปด้วยกลิ่นอายของวิถีชีวิตดั้งเดิม อาหารพื้นบ้านแสนอร่อย หัตถกรรมจากชุมชน และบรรยากาศอันเงียบสงบริมสายน้ำ ที่นี่คือศูนย์รวมของรอยยิ้ม น้ำใจ และความอบอุ่นจากชาวบ้านในพื้นที่ ที่พร้อมต้อนรับทุกคนด้วยความจริงใจ',
     transport: 'รถประจำทางหรือรถตู้สาธารณะสายสำโรง-คลองด่าน วิ่งเส้นถนนสุขุมวิท และต่อมอเตอร์ไซค์รับจ้าง',
-    image: "img/peekamarket.jpg"
+    image: "img/peekamarket2.jpg",
+     detailImages: [
+      "img/peekamarket.jpg",
+      "img/peekamarket3.jpg",
+      "img/peekamarket4.jpg"
+    ]
   },
    {
     id: 'newcaferestaurant',
@@ -422,7 +442,12 @@ const PLACES = [
     teaser: '',
     about: 'NEW Cafe ร้านอาหารริมน้ำที่ให้คุณได้ผ่อนคลายไปกับบรรยากาศสุดชิล และชมพระอาทิตย์ตกดินสุดโรแมนติก  พร้อมอิ่มอร่อยไปกับเมนูอาหารและเครื่องดื่มหลากหลาย  ที่คัดสรรมาเพื่อคุณโดยเฉพาะไม่ว่าจะมากับเพื่อน, คนรัก, หรือครอบครัว NEW Cafe ก็พร้อมมอบช่วงเวลาดี ๆ ที่น่าจดจำให้คุณเสมอ',
     transport: 'รถยนต์ส่วนตัว: ทางเข้าตลาดช้อนทอง',
-    image: "img/newcaferestaurant.jpg"
+    image: "img/newcaferestaurant2.webp",
+     detailImages: [
+      "img/newcaferestaurant.jpg",
+      "img/newcaferestaurant3.webp",
+      "img/newcaferestaurant1.jpg"
+    ]
   },
    {
     id: 'chomjant',
@@ -432,10 +457,13 @@ const PLACES = [
     teaser: '',
     about: 'เหมาะสำหรับนั่งดื่ม ลองค็อกเทล เป็นร้านสไตล์น่ารักแนวแคมปิ้งตกแต่งออกมาได้นั่งชิลล์ชิลล์เหมือน นั่งแคมปิ้งกับเพื่อนๆ มีเมนูอาหารให้เลือกหลากหลายรายการทั้งอาหารไทย อาหารอีสานหรือ จะเป็นอาหารจานเดียว ปลาเผา จิ้มจุ่ม ',
     transport: 'การเดินทางโดยรถยนต์: ใช้เส้นทางถนนเทพราช-ลาดกระบัง',
-    image: "img/chomjant.jpg"
+    image: "img/chomjant.jpg",
+    detailImages:[
+      "img/chomjant2.jpg",
+      "img/chomjant3.jpg"
+    ]
   },
   
-
   {
     id: 'chujai',
     district: 'bangsaothong',
@@ -444,7 +472,12 @@ const PLACES = [
     teaser: '',
      about: 'หาดชูใจ ทะเลน้ำจืดสมุทรปราการ เปิดใหม่ใกล้กรุงเทพฯ พื้นที่กว่า 40 ไร่ มุมถ่ายรูปเพียบ เครื่องเล่นอลังการจัดเต็มรอชาวแก๊งและครอบครัว',
     transport: 'รถยนต์ส่วนตัว: ซ.วัดศรีวารีน้อย อ.บางเสาธง',
-    image: "img/chujai.jpg"
+    image: "img/chujai1.jpg",
+    detailImages:[
+      "img/chujai2.jpg",
+      "img/chujai.jpg"
+    ]
+
   },
   {
     id: 'letmetellyourstory',
@@ -454,7 +487,11 @@ const PLACES = [
     teaser: '',
     about: 'Let Me Tell You Our Story Cafe เป็นคาเฟ่สไตล์ฝรั่ง บ้านไม้สีน้ำตาล ท่ามกลางต้นไม้เยอะๆ มีละอองน้ำพ่นคลุ้งแบบโคตรสดชื่น บรรยากาศดีจนลืมไปเลยว่าอยู่ใกล้กรุงเทพ มุมถ่ายรูปเพียบ เดินไปทางไหนก็สวย',
     transport: 'รถยนต์ส่วนตัว: ซ.วัดศรีวารีน้อย อ.บางเสาธง',
-    image: "img/letmetellyouourstorycafe.webp"
+    image: "img/letmetellyouourstorycafe.webp",
+    detailImages:[
+      "img/letmetellyouourstorycafe1.jpg",
+      "img/letmetellyouourstorycafe2.jpg"
+    ]
   },
    {
     id: 'watsuwanaphumiputthachayanee',
@@ -464,7 +501,12 @@ const PLACES = [
     teaser: '',
     about: ' วัดสุวรรณภูมิพุทธชยันตี โดดเด่นด้วยสถาปัตยกรรมไทยประยุกต์ ผสมผสานความงดงามจากศิลปะไทย อินเดีย จุดสำคัญที่ไม่ควรพลาดคือ พระมหาเจดีย์พุทธคยาจำลอง หัวใจสำคัญของวัด จำลองจาก มหาเจดีย์พุทธคยา สถานที่ตรัสรู้ของพระพุทธเจ้า ประเทศอินเดีย สูงตระหง่าน 9 ชั้น  ยอดเจดีย์ทำจากหินทรายแกะสลักจากเมืองจูนนาห์ ประเทศอินเดีย ประดับด้วยลวดลายรูปธรรมจักร ภายในพระมหาเจดีย์ บรรจุพระสารีริกธาตุ',
     transport: 'โดยรถยนต์ส่วนตัว : ใช้เส้นทางถนนเทพรัตน์ มุ่งหน้าสนามบินสุวรรณภูมิ ผ่านห้างสรรพสินค้าเซ็นทรัล อีสต์วิลล์ เลี้ยวซ้ายเข้าซอยวัดศรีวารีน้อย ตรงไปประมาณ 2 กิโลเมตร โดยรถสาธารณะ : ขึ้นรถสองแถวสีฟ้าสายวัดศรีวารีน้อย ลงป้ายวัดสุวรรณภูมิพุทธชยันตี',
-    image: "img/watsuwanaphumiputthachayanee.webp"
+    image: "img/watsuwanaphumiputthachayanee.webp",
+    detailImages:[
+      "img/watsuwanaphumiputthachayanee2.avif",
+      "img/watsuwanaphumiputthachayanee3.jpg",
+      "img/watsuwanaphumiputthachayanee4.jpg"
+    ]
   },
    {
     id: 'watsaotangnok',
@@ -474,17 +516,25 @@ const PLACES = [
     teaser: '',
     about: ' กราบพระพิฆเนศ ปางสุขสมหวัง วัดเสาธงนอก จ.สมุทรปราการเป็นอีกหนึ่งวัดศักดิ์สิทธิ์ที่มีญาติโยมมากราบไหว้ทำบุญกันอยู่เนืองๆ เที่ยวสมุทรปราการครั้งไหน อย่าลืมแวะไปกราบพระ',
     transport: 'โดยรถยนต์ส่วนตัว : ใวิ่งเส้นถนนเทพารักษ์ ออกสู่ถนนบางนา-ตราด หรือใช้เส้นทางถนนทางหลวงชนบทเชื่อมต่อมายังอำเภอบางเสาธง',
-    image: "img/watsaotangnok.jpg"
+    image: "img/watsaotangnok.jpg",
+    detailImages:[
+      "img/watsaotangnok2.jpg"
+    ]
   },
   {
     id: 'wimanthung',
     district: 'bangsaothong',
     name: 'วิมานทุ่ง',
-    category: 'cafe',
+    category: 'landmark',
     teaser: '',
      about: 'ดินแดนสวรรค์กลางทุ่งนา ทุ่งนาสีเขียวขจี ท้องฟ้าสีคราม อากาศบริสุทธิ์ บวกกับการตกแต่งสไตล์ไทยร่วมสมัย ที่ผสมผสานกลิ่นอายธรรมชาติ ไม้ไผ่ หลังคาฟาง และเฟอร์นิเจอร์ไม้ สร้างบรรยากาศอบอุ่น ผ่อนคลาย เหมือนมาพักผ่อนหย่อนใจ',
     transport: 'รถยนต์ส่วนตัว: Wiman Thung (อ.บางเสาธง จ.สมุทรปราการ)',
-    image: "img/wimanthung.webp"
+    image: "img/wimanthung.webp",
+    detailImages:[
+      "img/wimanthung1.webp",
+      "img/wimanthung4.jpg",
+      "img/wimanthung3.jpg"
+    ]
   }
 ];
 
@@ -708,21 +758,15 @@ function renderHistorySubmenu() {
   if (!submenu) return;
 
   submenu.innerHTML = Age.map(d => {
-    
-    if (d.id === 'historytongtin') {
-      return `
-        <li>
-          <a href="javascript:void(0)" onclick="ชื่อฟังก์ชันของคุณ('view-history')">
-            ${d.name}
-          </a>
-        </li>
-      `;
-    }
+    // ถ้าเป็น historytongtin ให้ลิงก์ไปที่ #view-history ในหน้าเดิม
+    // ถ้าเป็นอันอื่น ให้ลิงก์ไปที่ไฟล์ html แยก (เช่น lopburi.html)
+    const linkPath = d.id === 'historytongtin' 
+      ? '#view-history' 
+      : `${d.id}.html`;
 
-    // ส่วนของหน้าอื่นๆ ที่เปิดไฟล์ .html ใหม่
     return `
       <li>
-        <a href="${d.id}.html">
+        <a href="${linkPath}">
           ${d.name}
         </a>
       </li>
