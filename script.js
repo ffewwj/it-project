@@ -195,7 +195,6 @@ const HISTORY_CONTENT = {
 <br>
 <h2>ต่อมาในระหว่าง สงครามโลกครั้งที่๒</h2> (พ.ศ. ๒๔๘๔-๒๔๘๗) ประเทศต้องเข้าสู่สงครามด้วยความจำเป็นและเป็นระยะ ที่เกิดภาวะทางเศรษฐกิจและความผันผวนทางการเมือง รัฐบาลจำเป็นต้องปรับปรุงระเบียบการปกครอง เสียใหม่ จึงได้ตราพระราชกฤษฎีกายุบการปกครองของจังหวัดสมุทรปราการ ขึ้นกับจังหวัดพระนคร ในปี พ.ศ. ๒๘๖ครั้นพอสงครามโลกสงบลงรัฐบาลได้ตราพระราชกฤษฎีกา ประกาศตั้งจังหวัดสมุทรปราการ ขึ้นใหม่อีกครั้งหนึ่งเมื่อวันที่ พฤษภาคม พ.ศ. ๒๔๘๙ โดยแยกการปกครองออกจากจังหวัดพระนคร และตั้งเป็นจังหวัดสมุทรปราการจนกระทั่งทุกวันนี้
 
-
     </p>
   `,
 
@@ -233,6 +232,12 @@ const PLACES = [
       "img/chommueng2.jpg",
       "img/chommueng3.jpg",
       "img/chommueng4.jpg"
+    ],
+
+    imageCredits: [
+      "https://travel.samutprakan.go.th/",
+      "https://travel.samutprakan.go.th/",
+      "https://travel.samutprakan.go.th/"
     ]
   },
     {
@@ -248,6 +253,12 @@ const PLACES = [
       "img/boran2.png",
       "img/boran3.png",
       "img/boran4.png"
+    ],
+
+    imageCredits: [
+      "https://www.muangboranmuseum.com/",
+      "https://www.muangboranmuseum.com/",
+      "https://www.muangboranmuseum.com/"
     ]
   },
 
@@ -264,6 +275,12 @@ const PLACES = [
       "img/chang1.jpg",
       "img/chang2.webp",
       "img/chang3.jpg"
+    ],
+
+    imageCredits: [
+      "https://www.tripadvisor.co.il/",
+      "https://www.muangboranmuseum.com/",
+      "https://www.kkday.com/th"
     ]
   },
 
@@ -280,6 +297,12 @@ const PLACES = [
       "img/asokaram2.jpg",
       "img/asokaram3.jpg",
       "img/asokaram4.jpg"
+    ],
+
+    imageCredits: [
+      "https://www.tleasing.co.th/",
+      "Facebook: Unseen Tour Thailand",
+      "https://www.wongnai.com/"
     ]
   },
     {
@@ -295,6 +318,11 @@ const PLACES = [
       "img/kruat2.jpg",
       "img/kruat3.jpg",
       "img/kruat4.jpg"
+    ],
+    imageCredits: [
+      "https://www.matichon.co.th/",
+      "https://th.trip.com/",
+      "https://www.maybishotel.com/th/"
     ]
   },
 
@@ -311,6 +339,11 @@ const PLACES = [
       "img/Bangpu2.png",
       "img/Bangpu3.png",
       "img/Bangpu4.png"
+    ],
+    imageCredits: [
+      "https://www.wongnai.com/",
+      "https://th.trip.com/",
+      "https://www.maybishotel.com/th/"
     ]
   },
 
@@ -327,6 +360,11 @@ const PLACES = [
       "img/farmcrocodile2.png",
       "img/farmcrocodile3.png",
       "img/farmcrocodile4.png"
+    ],
+    imageCredits: [
+      "https://www.trueid.net/th-th",
+      "https://www.trueid.net/th-th",
+      "https://www.trueid.net/th-th"
     ]
   },
   {
@@ -342,6 +380,11 @@ const PLACES = [
       "img/paknam.jpg",
       "img/paknam2.jpg",
       "img/paknam3.jpg"
+    ],
+    imageCredits: [
+      "https://www.maybishotel.com/th/",
+      "Facebook: ทางช้างผ่าน",
+      "Facebook: ทางช้างผ่าน"
     ]
   },
 
@@ -358,6 +401,11 @@ const PLACES = [
       "img/vivajoy2.jpg",
       "img/vivajoy3.jpg",
       "img/vivajoy4.jpg"
+    ],
+    imageCredits: [
+      "Facebook: เพจสปอร์ตไลท์บางปู",
+      "Facebook: เพจสปอร์ตไลท์บางปู",
+      "Facebook: เพจสปอร์ตไลท์บางปู"
     ]
   },
 
@@ -374,6 +422,11 @@ const PLACES = [
       "img/bangphlimarket2.jpg",
       "img/bangphlimarket3.jpg",
       "img/bangphlimarket4.jpg"
+    ],
+    imageCredits: [
+      "https://cbtthailand.dasta.or.th/webapp/",
+      "Facebook: ที่นี่สมุทรปราการ",
+      "https://mgronline.com/"
     ]
   },
 
@@ -407,6 +460,11 @@ const PLACES = [
       "img/bangkachao2.jpg",
       "img/bangkachao3.jpg",
       "img/bangkachao4.jpg"
+    ],
+    imageCredits: [
+      "https://paiduaykan.com/",
+      "https://travel.samutprakan.go.th/",
+      "https://www.choowap.com/th/"
     ]
   },
 
@@ -422,6 +480,11 @@ const PLACES = [
      detailImages: [
       "img/suansri2.jpg",
       "img/suansri3.jpg"
+    ],
+    imageCredits: [
+      "https://paiduaykan.com/",
+      "https://samutprakan.prd.go.th/th/page/item/index/id/12",
+      "https://cbtthailand.dasta.or.th/webapp/"
     ]
   },
   {
@@ -436,6 +499,11 @@ const PLACES = [
      detailImages: [
       "img/museumfish3.jpg",
       "img/museumfish4.jpg"
+    ],
+    imageCredits: [
+      "https://www.wongnai.com/",
+      "https://www.wongnai.com/",
+      "https://cbtthailand.dasta.or.th/webapp/"
     ]
   },
 
@@ -452,6 +520,11 @@ const PLACES = [
       "img/sal2.png",
       "img/sal3.png",
       "img/sal4.png"
+    ],
+    imageCredits: [
+      "https://www.choowap.com/th",
+      "",
+      "Facebook: Unseen Tour Thailand"
     ]
   },
   {
@@ -467,6 +540,11 @@ const PLACES = [
       "img/watchakdang1.jpg",
       "img/watchakdang2.jpg",
       "img/watchakdang3.jpg"
+    ],
+    imageCredits: [
+      "https://www.salika.co/",
+      "https://www.thailandtourismdirectory.go.th/",
+      "https://watchakdaeng.com/"
     ]
   },
    {
@@ -482,6 +560,11 @@ const PLACES = [
       "img/bannaklang1.png",
       "img/bannaklang2.jpg",
       "img/bannaklang3.jpeg"
+    ],
+    imageCredits: [
+      "https://www.instagram.com/",
+      "https://www.lemon8-app.com/feed/foryou?region=th",
+      "https://www.lemon8-app.com/feed/foryou?region=th"
     ]
   },
 
@@ -498,6 +581,11 @@ const PLACES = [
       "img/chedi2.jpg",
       "img/chedi3.jpg",
       "img/chedi4.jpg"
+    ],
+    imageCredits: [
+      "https://mgronline.com/",
+      "https://cbtthailand.dasta.or.th/webapp/",
+      "https://www.maybishotel.com/en/article/phra-samut-chedi-festival/"
     ]
   },
    {
@@ -513,6 +601,11 @@ const PLACES = [
       "img/pompheesue2.jpg",
       "img/pompheesue3.jpg",
       "img/pompheesue4.jpg"
+    ],
+    imageCredits: [
+      "Facebook: ภารกิจเที่ยววัด - Faiththaistory.com",
+      "https://www.thai-tour.com/",
+      "https://www.dailynews.co.th/"
     ]
   },
 
@@ -529,8 +622,14 @@ const PLACES = [
       "img/pompragul2.png",
       "img/pompragul3.png",
       "img/pompragul4.png"
+    ],
+    imageCredits: [
+      "https://th.trip.com/?locale=th-TH&curr=THB",
+      "Facebook: เสียงจากทหารเรือ",
+      ""
     ]
   },
+  
 
   {
     id: 'watthongkung',
@@ -545,6 +644,11 @@ const PLACES = [
       "img/watthongkung2.jpg",
       "img/watthongkung4.jpg",
       "img/watthongkung3.jpg"
+    ],
+    imageCredits: [
+      "https://www.wongnai.com/",
+      "https://www.wongnai.com/",
+      "https://www.wongnai.com/"
     ]
   },
    {
@@ -560,6 +664,11 @@ const PLACES = [
       "img/peekamarket.jpg",
       "img/peekamarket3.jpg",
       "img/peekamarket4.jpg"
+    ],
+    imageCredits: [
+      "https://www.tiktok.com/",
+      "https://www.tiktok.com/",
+      "https://watpanprasit.com/"
     ]
   },
    {
@@ -575,6 +684,11 @@ const PLACES = [
       "img/newcaferestaurant.jpg",
       "img/newcaferestaurant3.webp",
       "img/newcaferestaurant1.jpg"
+    ],
+    imageCredits: [
+      "https://www.tiktok.com/",
+      "New cafe & restaurant",
+      "New cafe & restaurant"
     ]
   },
    {
@@ -589,6 +703,10 @@ const PLACES = [
     detailImages:[
       "img/chomjant2.jpg",
       "img/chomjant3.jpg"
+    ],
+    imageCredits: [
+      "https://th.trip.com/?locale=th-TH&curr=THB",
+      "https://th.trip.com/?locale=th-TH&curr=THB"
     ]
   },
   
@@ -604,6 +722,10 @@ const PLACES = [
     detailImages:[
       "img/chujai2.jpg",
       "img/chujai.jpg"
+    ],
+    imageCredits: [
+      "facebook: หาดชูใจ ทะเลน้ำจืด สมุทรปราการ ",
+      "https://travel.kapook.com/"
     ]
 
   },
@@ -619,6 +741,10 @@ const PLACES = [
     detailImages:[
       "img/letmetellyouourstorycafe1.jpg",
       "img/letmetellyouourstorycafe2.jpg"
+    ],
+    imageCredits: [
+      "Facebook: Let Me Tell You Our Story Cafe",
+      "Facebook: Let Me Tell You Our Story Cafe"
     ]
   },
    {
@@ -634,6 +760,11 @@ const PLACES = [
       "img/watsuwanaphumiputthachayanee2.avif",
       "img/watsuwanaphumiputthachayanee3.jpg",
       "img/watsuwanaphumiputthachayanee4.jpg"
+    ],
+    imageCredits: [
+      "https://www.trueid.net/th-th",
+      "https://th.trip.com/?locale=th-TH&curr=THB",
+      "https://th.trip.com/?locale=th-TH&curr=THB"
     ]
   },
    {
@@ -647,6 +778,9 @@ const PLACES = [
     image: "img/watsaotangnok.jpg",
     detailImages:[
       "img/watsaotangnok2.jpg"
+    ],
+    imageCredits: [
+      "Facebook: ชุมชนคนบางเสาธง",
     ]
   },
   {
@@ -662,6 +796,11 @@ const PLACES = [
       "img/wimanthung1.webp",
       "img/wimanthung4.jpg",
       "img/wimanthung3.jpg"
+    ],
+    imageCredits: [
+      "https://www.wongnai.com/",
+      "https://www.wongnai.com/",
+      "https://www.wongnai.com/"
     ]
   }
 ];
@@ -1008,14 +1147,27 @@ function updateDetailImages(p) {
   if (!container || !p) return;
 
   const images = p.detailImages || [];
+  const credits = p.imageCredits || [];
 
-  container.innerHTML = images.map(image => `
-    <img
-      src="${image}"
-      class="detail-extra-image"
-      alt="${p.name || ""}"
-    >
-  `).join("");
+  container.innerHTML = images.map((image, i) => {
+
+    const credit = credits[i];
+
+    return `
+    <div class="detail-extra-image-item">
+      <img
+        src="${image}"
+        class="detail-extra-image"
+        alt="${p.name || ""}"
+      >
+      ${
+        credit
+          ? `<div class="detail-extra-image-credit">เครดิตภาพ: ${credit}</div>`
+          : ""
+      }
+    </div>
+  `;
+  }).join("");
 }
 
 
