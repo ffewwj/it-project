@@ -534,6 +534,20 @@ span{
   color:#326cbb;
   line-height: 1.4;
 }
+.detail-extra-images {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detail-extra-image {
+  width: 100%;
+  border: 3px solid #326CBB;
+  border-radius: 18px;
+  display: block;
+  object-fit: cover;
+}
 
 
 /* =========================
