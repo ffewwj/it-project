@@ -705,16 +705,23 @@ function renderSubmenu() {
 
 function renderHistorySubmenu() {
   const submenu = document.getElementById("historysubmenu");
-
   if (!submenu) return;
 
-  submenu.innerHTML = Age.map(d => `
-    <li>
-      <a href="${d.id}.html">
-        ${d.name}
-      </a>
-    </li>
-  `).join("");
+  submenu.innerHTML = Age.map(d => {
+    // เช็คเงื่อนไข: ถ้าเป็น historytongtin ให้ไปที่ index.html#historytongtin
+    // ถ้าไม่ใช่ ให้ไปที่ไฟล์ id.html หน้าใหม่
+    const linkPath = d.id === 'historytongtin' 
+      ? 'index.html#historytongtin' 
+      : `${d.id}.html`;
+
+    return `
+      <li>
+        <a href="${linkPath}">
+          ${d.name}
+        </a>
+      </li>
+    `;
+  }).join("");
 }
 
 /* ================= STATE ================= */
