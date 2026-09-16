@@ -632,6 +632,12 @@ function renderHistorySubmenu() {
     </li>
   `).join("");
 }
+submenu.innerHTML = Age.map(d => `
+  <li>
+    <a href="#${d.id}" data-close>
+      ${d.name}
+    </li>
+`).join("");
 
 
 /* ================= STATE ================= */
