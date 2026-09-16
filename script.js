@@ -708,10 +708,10 @@ function renderHistorySubmenu() {
   if (!submenu) return;
 
   submenu.innerHTML = Age.map(d => {
-    // เช็คเงื่อนไข: ถ้าเป็น historytongtin ให้ไปที่ index.html#historytongtin
-    // ถ้าไม่ใช่ ให้ไปที่ไฟล์ id.html หน้าใหม่
+    // ถ้าเป็น historytongtin ให้ลิงก์ไปที่ #view-history ในหน้าเดิม
+    // ถ้าเป็นอันอื่น ให้ลิงก์ไปที่ไฟล์ html แยก (เช่น lopburi.html)
     const linkPath = d.id === 'historytongtin' 
-      ? 'index.html#historytongtin' 
+      ? '#view-history' 
       : `${d.id}.html`;
 
     return `
