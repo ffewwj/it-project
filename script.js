@@ -705,7 +705,7 @@ function renderHistorySubmenu() {
 
   submenu.innerHTML = Age.map(d => `
     <li>
-      <a href="#history" data-close>
+      <a href="${d.id}.html">
         ${d.name}
       </a>
     </li>
