@@ -92,7 +92,7 @@ const CAT_LABEL = {
 };
 
 const PLACES = [
-  {
+ {
     id: 'tower',
     district: 'mueang',
     name: 'หอชมเมืองสมุทรปราการ',
@@ -100,7 +100,11 @@ const PLACES = [
     teaser: '',
     about: 'เป็น Landmark ที่น่าสนใจของจังหวัดสมุทรปราการ  ภายในอาคารมีการจัดแสดงแบบพิพิธภัณฑ์ โดยรวบรวมเรื่องราวของสถานที่สำคัญ ข้อมูลบุคคลสำคัญ ความรู้ประจำจังหวัด แหล่งรวมหนังสือ, ภาพยนตร์, ดนตรี และเทคโนโลยีที่น่าสนใจ ซึ่งเป็นยอดหอคอยเป็นจุดที่สามารถชมทัศนียภาพได้ 360 องศา พื้นที่อุทยานการเรียนรู้อ่าวไทยแบ่งพื้นที่ออกเป็น 4 ส่วนคือ พิพิธภัณฑ์เด็ก พิพิธภัณฑ์สมุทรปราการ ห้องสมุด หอชมเมือง นับได้ว่าเป็นสถานที่ที่ควรมาของจังหวัดสมุทรปราการ  ',
     transport: 'รถไฟฟ้า BTS สายสีเขียว สถานีปากน้ำ E16 จากนั้นเดินสกายวอล์คและออกทางออก 6 เป็นทางออกที่เชื่อมต่อกับบริเวณหอชมเมือง วันเปิดทำการ วันอังคาร – วันอาทิตย์ และวันหยุดนักขัตฤกษ์ วันหยุดทำการ วันจันทร์ เวลาเปิด-ปิด 10:00 น. – 17:00 น. ',
-    image: "img/chommueng.png"
+    image: "img/chommueng.png",
+    detailImages: [
+      "img/chommueng1.png",
+      "img/chommueng2.png"
+    ]
   },
     {
     id: 'boran',
@@ -682,20 +686,21 @@ function updateDetailMap(p) {
 }
 
 
-function updateDetailImage(p) {
+function updateDetailImages(p) {
 
-  const img = document.getElementById("detailImage");
+  const container = document.getElementById("detailExtraImages");
 
-  if (!img || !p) return;
+  if (!container || !p) return;
 
-  if (p.image) {
-    img.style.display = "block";
-    img.src = p.image;
-    img.alt = p.name || "";
-  } else {
-    img.removeAttribute("src");
-    img.style.display = "none";
-  }
+  const images = p.detailImages || [];
+
+  container.innerHTML = images.map(image => `
+    <img
+      src="${image}"
+      class="detail-extra-image"
+      alt="${p.name || ""}"
+    >
+  `).join("");
 }
 
 
@@ -1045,9 +1050,8 @@ function updateDetailContent() {
   document.getElementById("detailTransport").textContent =
     p.transport;
 
-  updateDetailImage(p);
-
-  updateDetailMap(p);
+updateDetailImages(p);
+updateDetailMap(p);
 
 
 
