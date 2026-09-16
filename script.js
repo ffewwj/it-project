@@ -708,15 +708,21 @@ function renderHistorySubmenu() {
   if (!submenu) return;
 
   submenu.innerHTML = Age.map(d => {
-    // ถ้าเป็น historytongtin ให้ลิงก์ไปที่ #view-history ในหน้าเดิม
-    // ถ้าเป็นอันอื่น ให้ลิงก์ไปที่ไฟล์ html แยก (เช่น lopburi.html)
-    const linkPath = d.id === 'historytongtin' 
-      ? '#view-history' 
-      : `${d.id}.html`;
+    
+    if (d.id === 'historytongtin') {
+      return `
+        <li>
+          <a href="javascript:void(0)" onclick="ชื่อฟังก์ชันของคุณ('view-history')">
+            ${d.name}
+          </a>
+        </li>
+      `;
+    }
 
+    // ส่วนของหน้าอื่นๆ ที่เปิดไฟล์ .html ใหม่
     return `
       <li>
-        <a href="${linkPath}">
+        <a href="${d.id}.html">
           ${d.name}
         </a>
       </li>
