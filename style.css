@@ -762,6 +762,22 @@ span{
   color: #ffffff;
 }
 
+/* แถบเลือก "สมัย" ในหน้าประวัติศาสตร์ท้องถิ่น มีตัวเลือกมากกว่าหมวดหมู่สถานที่
+   จึงให้ขึ้นบรรทัดใหม่ได้และเป็นปุ่มแบบเม็ดยา แทนที่จะบีบทุกปุ่มไว้แถวเดียว */
+#historyChips {
+  flex-wrap: wrap;
+  max-width: 460px;
+  border: none;
+  gap: 8px;
+}
+
+#historyChips .chip {
+  flex: 0 0 auto;
+  border: 2px solid #326cbb;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
 .place-list {
   max-width: 420px;
   margin: 0 auto;
